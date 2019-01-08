@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ProgressBar">
+        <item name="colorAccent">#66b3ff</item>
+
+
+    </style>
+
+    <style name="Main_Button">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#e60000</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
 </resources>
