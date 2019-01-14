@@ -71,7 +71,7 @@ public class Log_IN extends AppCompatActivity {
                         try {
                             int state = response.getInt("State");
                             JSONObject result = response.getJSONObject("result");
-                            String userName = result.getString("Emp_name");
+                            String userName = result.getString("User_Name");
 
 
                             State = state;
@@ -83,11 +83,13 @@ public class Log_IN extends AppCompatActivity {
 
 
 
-                        if (State == 1){
+                        if (State == 1)
+
+                        {
                             progressBar.setVisibility(View.INVISIBLE);
                             Toast.makeText(getApplication(),getString(R.string.Welcome) + User_Name,Toast.LENGTH_LONG).show();
 
-                            startActivity(new Intent(Log_IN.this,MainActivity.class));
+                            startActivity(new Intent(Log_IN.this,User_Main.class));
 
 
 

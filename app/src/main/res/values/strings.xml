@@ -29,4 +29,22 @@
     <string name="LogIn_Button">log in</string>
 
 
+    <!--================== Strings related to Main=========================-->
+    <string name="Detailed">Detailed</string>
+    <string name="Totals">Totals</string>
+    <string name="Loading_Data">Loading Data...</string>
+    <string name="Setting">Setting</string>
+    <string name="Filter">Filter</string>
+    <string name="Main_A_Lable">Menu</string>
+
+
+
+
+    <!--================== Strings related to Detailed=========================-->
+    <string name="In">IN</string>
+    <string name="Out">OUT</string>
+    <string name="Evaluated">Evaluated :</string>
+    <string name="Non_Evaluated">Non Evaluated :</string>
+
+
 </resources>

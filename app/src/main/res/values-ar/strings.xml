@@ -29,6 +29,22 @@
     <string name="LogIn_Button">دخول</string>
 
 
+    <!--================== Strings related to Main=========================-->
+    <string name="Detailed">تفصيلى</string>
+    <string name="Totals">إجمالى</string>
+    <string name="Loading_Data">جاري التحميل...</string>
+    <string name="Setting">إعدادات</string>
+    <string name="Filter">تصفية</string>
+    <string name="Main_A_Lable">القائمة</string>
+
+
+    <!--================== Strings related to Detailed=========================-->
+    <string name="In">حضور</string>
+    <string name="Out">إنصراف</string>
+    <string name="Evaluated">قامو بالتقييم :</string>
+    <string name="Non_Evaluated">لم يقوموا بالتقييم :</string>
+
+
 
 
 </resources>

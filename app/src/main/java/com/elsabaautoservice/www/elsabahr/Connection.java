@@ -5,11 +5,11 @@ import org.json.JSONObject;
 
 public class Connection {
 
-    public static String IP_Adress = "197.50.45.168:8020";
+    public static String IP_Adress = "197.50.45.168:8030";
     public static JSONObject Params = new JSONObject();
 
 
-    public static String User_LogIn = "http://"+IP_Adress+"/CustomerEvaluationAPI/API/user/loginData";
+    public static String User_LogIn = "http://"+IP_Adress+"/MotiveTestDev/Authentication/Login";
 
 //================================Parameter (Brand - Branch - From Date - To Date )========================================
 
@@ -35,8 +35,9 @@ public class Connection {
 
         try {
 //
-            Params.put("User_Name", Log_IN.EnteredUserName);
-            Params.put("User_Pass", Log_IN.EnteredPassword);
+            Params.put("UserName", Log_IN.EnteredUserName);
+            Params.put("UserPassword", Log_IN.EnteredPassword);
+            Params.put("DeviceName", "android");
 
             return Params;
         }catch(JSONException ex) {
